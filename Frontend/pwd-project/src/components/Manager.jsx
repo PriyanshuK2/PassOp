@@ -19,17 +19,6 @@ function Manager() {
 
   const copyText = (text) => {
     toast.success("Copied to Clipboard");
-    // toast.success('Copied to Clipboard!', {
-    //   position: "top-right",
-    //   autoClose: 3000,
-    //   hideProgressBar: false,
-    //   closeOnClick: true,
-    //   pauseOnHover: false,
-    //   draggable: true,
-    //   progress: undefined,
-    //   theme: "light"
-    //   });
-
     navigator.clipboard.writeText(text);
   };
 
