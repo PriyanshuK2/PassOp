@@ -33,7 +33,7 @@ function Manager() {
         setForm({ site: "", username: "", password: "" })
         toast.success("Saved!")
       }else{
-        toast.error('Enter valid argumenets!')
+        toast.error('Enter valid argumenets')
       }
   };
   const deletePassword = (id) => {
